@@ -4,7 +4,7 @@ import pyNN.nest as sim
 
 # simulation setup
 sim.setup(timestep=0.1)  # 0.1ms resolution
-random_num_generator = NumpyRNG(seed=69)
+rng = NumpyRNG(seed=69)
 
 # configuring neuron model
 cell_parameters = {
